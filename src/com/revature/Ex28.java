@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Demo1 {
+public class Ex28 {
 	public static void main(String args[]){
 		FileReader fr=null;
 		try{

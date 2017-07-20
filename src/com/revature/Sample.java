@@ -1,13 +1,22 @@
 package com.revature;
 
 public class Sample {
-	public static void main(String args[]){
-		try{
-		int a[] = new int[2];
-		System.out.println("Access element three :" + a[3]);
-		}catch(ArrayIndexOutOfBoundsException e){
-		System.out.println("Exception thrown :" + e);
-		}
-		System.out.println("Out of the block");
-}
+	public static void main(String... args) {
+		
+	
+	int dayOfWeek = 3;
+	switch(dayOfWeek) {
+	
+	case 0:
+	System.out.println("Sunday");
+	break;
+	case 6:
+	System.out.println("Saturday");
+	break;
+	default:
+		System.out.println("Weekday");
+		break;
+	}
+	}
+	
 }
