@@ -8,7 +8,6 @@ public static void main(String[] args) {
 	System.out.println("sum for 0 is"+x);
 	System.out.println("="+sum);
 	}
-}
-
+}                              
 }
 
